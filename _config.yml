@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  sah21
 
 # Build settings
-theme: jekyll-theme-hydejack
+theme: minima
 plugins:
   - jekyll-feed
 
