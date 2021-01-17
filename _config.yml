@@ -18,14 +18,35 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# General settings
+# ---------------------------------------------------------------------------------------
+
 title: Sandra Häberle
 email: sandra.haeberle@icloud.com
+
+
 description: >- # this means to ignore newlines until "baseurl:"
   Crafting projects and more ...
+
+# Language of your content in 2-letter code, e.g.: en, de.
+# You may also provide a location, e.g.: en-us, de_AT.
+lang:  en
+
+# A shorter description for the sidebar.
+tagline:               Change `tagline` in `_config.yml`
+
+# A list of keywords for your blog
+keywords:              []
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  sah21
+
+# A (square) logo for your site.
+# If provided, it will be shown at the top of the sidebar.
+# It also used by the `jekyll-seo-tag` plugin.
+#!!# logo:                  /assets/img/logo.png
 
 # Build settings
 remote_theme: hydecorp/hydejack
